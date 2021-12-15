@@ -1,0 +1,304 @@
+* {
+    color: black;
+}
+
+html {
+    font-size: 9px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+ul {
+    padding-left: 1em;
+}
+
+li {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#header {
+    height: 15vh;
+    width: 100vw;
+    background: url('./assests/standard_logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+    margin-top: 4em;
+    font-size: 3em;
+}
+
+#roadmap {
+    height: 35vh;
+    width: 100%;
+    background: url('./assests/FSD-Roadmap.gif');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#front-page-footer {
+    border-top: 2px solid black;
+}
+
+#front-page-footer p {
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.module-header {
+    background-color: black;
+    margin: 0em 2em;
+    padding: 0.1em 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.module-header p {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.module-heading {
+    background-color: black;
+    padding-left: 0.5em;
+    width: 45vw;
+    border-radius: 0 10% 10% 0;
+}
+
+.module-heading p, .module-heading-two p, .module-heading-three p {
+    color: white;
+    font-size: 1em;
+}
+
+.module-heading-two {
+    background-color: black;
+    padding-left: 0.5em;
+    width: 50vw;
+    border-radius: 0 10% 10% 0;
+}
+
+.module-heading-three {
+    background-color: black;
+    padding-left: 0.5em;
+    width: 75vw;
+    border-radius: 0 10% 10% 0;
+}
+
+.course-logo {
+    height: 10em;
+    width: 1em;
+}
+
+#course-image-1, #course-image-2, #course-image-3, #course-image-4, #course-image-5, #course-image-6, #course-image-7, #course-image-8, #course-image-9, #course-image-10, #course-image-11, #course-image-12 {
+    width: 5em;
+} 
+
+.page-breaker {
+    /* border: 1px solid black; */
+    height: 1.5em;
+    /* margin-bottom: 2em; */
+}
+
+.page-breaker-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.page-breaker-container p {
+    color: white;
+}
+
+table thead th {
+    text-align: center; 
+    font-size: 1.2em;
+}
+
+.lead {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/* Tablet Views */
+@media (min-width: 480px) {
+    .lead {
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding-left: 1em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+
+    #header {
+        height: 18vh;
+        background-color: #000;
+        background-position: center;
+        align-self: center;
+    }
+
+    #title {
+        text-align: center;
+        margin-top: 3em;
+        font-size: 5em;
+    }
+
+    #roadmap {
+        height: 60vh;
+        background: url('./assests/FSD_Roadmap.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #course-image-1, #course-image-2, #course-image-3, #course-image-4, #course-image-5, #course-image-6, #course-image-7, #course-image-8, #course-image-9, #course-image-10, #course-image-11, #course-image-12 {
+        width: 7em;
+    }
+
+    .page-breaker {
+        /* border: 1px solid black; */
+        height: 1.5em;
+    }
+    
+    .page-breaker-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    
+    .page-breaker-container p {
+        color: white;
+    }
+
+    #front-page-footer p {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .module-heading, .module-heading-two, .module-heading-three {
+        background-color: black;
+        padding-left: 0em;
+        width: 45vw;
+        height: 6vh;
+        border-radius: 0 15% 15% 0;
+        margin: 1em 0em;
+    }
+    
+    .module-heading p, .module-heading-two p, .module-heading-three p {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .module-header {
+        background-color: black;
+        margin: 0em 2em;
+        padding: 0.1em 1em;
+        border-radius: 10px;
+        margin-bottom: 1em;
+    }
+    
+    .module-header p {
+        color: white;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    table thead th {
+        text-align: center; 
+        font-size: 1.2em;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 1200px) {
+    #header {
+        height: 18vh;
+        background-color: #000;
+        background-position: center;
+    }
+
+    #title {
+        text-align: center;
+        margin-top: 4em;
+        font-size: 6em;
+    }
+
+    #roadmap {
+        height: 85vh;
+        background: url('./assests/FSD_Roadmap.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #front-page-footer p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .module-heading {
+        background-color: black;
+        padding-left: 1em;
+        width: 10vw;
+        height: 5vh;
+        padding-top: 0.5em;
+        border-radius: 0 15% 15% 0;
+    }
+    
+    .module-heading p {
+        color: white;
+        font-size: 2em;
+    }
+
+    .module-heading, .module-heading-two, .module-heading-three {
+        background-color: black;
+        padding-left: 1em;
+        width: 25vw;
+        height: 5vh;
+        border-radius: 0 15% 15% 0;
+        margin: 1em 0em;
+    }
+
+    .page-breaker-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    
+    .module-heading p, .module-heading-two p, .module-heading-three p {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .module-heading-two {
+        background-color: black;
+        padding-left: 0.5em;
+        width: 25vw;
+        border-radius: 0 10% 10% 0;
+    }
+    
+    .module-heading-three {
+        background-color: black;
+        padding-left: 0.5em;
+        width: 25vw;
+        border-radius: 0 10% 10% 0;
+    }
+}
