@@ -39,7 +39,7 @@ p {
 #roadmap {
     height: 35vh;
     width: 100%;
-    background: url('./assests/FSD-Roadmap.gif');
+    background: url('./assests/fsd_roadmap.gif');
     background-repeat: repeat;
     background-size: contain;
     background-position: center;
@@ -163,7 +163,7 @@ table thead th {
 
     #roadmap {
         height: 60vh;
-        background: url('./assests/FSD_Roadmap.png');
+        background: url('./assests/fsd_roadmap.gif');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -243,7 +243,7 @@ table thead th {
 
     #roadmap {
         height: 85vh;
-        background: url('./assests/FSD_Roadmap.png');
+        background: url('./assests/fsd_roadmap.gif');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
